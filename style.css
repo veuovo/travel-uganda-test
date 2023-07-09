@@ -1,0 +1,127 @@
+body {
+   background-color: rgb(231, 186, 130);
+   color:rgb(31, 29, 29);
+   font-size: 20px;
+   font-family: 'Raleway', sans-serif;
+   line-height: 1,5;
+   margin: 0;
+}
+
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 80px;
+    color: rgb(231, 186, 130);
+    text-shadow: 0 3px 5px white;
+    margin: 0;
+}
+
+h2 {
+    font-size: 48px;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+section {
+    padding: 50px 15%;
+    overflow: auto;
+}
+.head {
+    padding: 150px 50px;
+    background-image: url(head.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.reiki,
+.contact {
+    background-color:  rgb(243, 197, 140);
+    
+}
+
+
+.service {
+    background-color:  rgb(243, 197, 140);
+}
+
+table {
+    margin-top: 70px;
+    border-spacing: 0;
+}
+
+td,
+th {
+    text-align: left;
+    border-bottom: 1px solid black;
+
+}
+
+.time {
+    text-align: right;
+}
+
+.photo img {
+    border: 1px solid rgb(5, 5, 5);
+    border-radius: 15px;
+    width: 30%;
+}
+
+.img-aboutme {
+    border-radius: 50%;
+    width: 200px;
+    float: left;
+    margin: 0 50px 30px 0;
+}
+
+.img-reiki {
+    border-radius: 50px 0 0 50px;
+    width: 200px;
+    float: right;
+    margin: 0px 50px 10px 10px;
+    
+}
+
+
+.credit {
+    padding: 20px 0;
+    background-color: rgb(0,0,0,5);
+    color: bisque;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: black;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 50px;
+    display: inline-block;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color: #756158;
+}
+
+
+
